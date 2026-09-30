@@ -8,7 +8,7 @@ https://github.com/irohs-lab/jailbreaking-llms-for-the-average-jane/blob/91885f4
 
 ## Running Evaluations
 ### Running Baseline Experiments on Jailbreaks
-To run baseline experiments (_i.e.,_ Figures 19 to 24 in the paper), use the [evaluate pipeline](evaluate.py). As an example, consider using [`meta-llama/Llama-3.1-8B-Instruct`](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) as a target model. For generating the target model responses from all 70 jailbreaks:
+To run baseline experiments (_i.e.,_ Figures 20 to 25 in the paper), use the [evaluate pipeline](evaluate.py). As an example, consider using [`meta-llama/Llama-3.1-8B-Instruct`](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) as a target model. For generating the target model responses from all 70 jailbreaks:
 
 ```bash
 python evaluate.py \
